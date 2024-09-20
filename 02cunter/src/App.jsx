@@ -10,6 +10,12 @@ function App() {
   const addValue=()=>{
     if(counter<20){
       setCounter(counter+1);
+      // setCounter((prevCounter)=>prevCounter+1)
+      setCounter(counter=>counter+1)
+      // setCounter(counter+1);
+      // setCounter(counter+1);
+      // setCounter(counter+1);
+      // setCounter(counter+1);
     }else{
     console.log("Counter cannot exceed 20");
     }
